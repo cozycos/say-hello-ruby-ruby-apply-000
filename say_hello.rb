@@ -1,11 +1,9 @@
 # I call on the method, say_hello, and give it the string "Gabriela"
-say_hello ("Gabriela")
-
-# The method prints this text to the screen:
-Hello Gabriela!
-
-say_hello #{"Ruby Programmer!"}
+def greeting(name = "Gabriela")
+puts "Hello,#{name}"
 
 
-"Hello Ruby Programmer!"
+
+
+
 
